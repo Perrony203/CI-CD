@@ -5,7 +5,7 @@ from calc.ops import add
 @pytest.mark.parametrize(
     "a,b,expected",
     [
-        (1,2,30),
+        (1,2,3),
         (-6,6,0),
         (0,0,0),
         (10,-3,7)
